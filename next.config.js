@@ -43,7 +43,7 @@ module.exports = {
           "./title": "./components/test.js",
         },
         remotes: {
-          landing: `landing@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
+          landing: `landing@https://app-shell-ezh0v3t39-duyhoang-avivetech.vercel.app/_next/static/${location}/remoteEntry.js`,
         },
         extraOptions: {
           exposePages: true,
