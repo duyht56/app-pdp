@@ -1,0 +1,7 @@
+// @import "./ProductDescription.scss";
+
+@mixin dark-theme {
+  .product-landing__model-name {
+    color: lightblue;
+  }
+}

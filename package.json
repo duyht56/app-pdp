@@ -1,0 +1,32 @@
+{
+  "name": "pdp-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "6.0.2",
+    "@stitches/react": "^1.2.8",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "css-loader": "^6.7.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "extract-css-chunks-webpack-plugin": "^4.9.0",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.5",
+    "webpack": "5.72.1",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  }
+}

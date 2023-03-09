@@ -1,0 +1,37 @@
+.spec-column {
+    font-size: 16px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 0 50px;
+    padding: 0 15px;
+    height: auto !important;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .spec-column {
+      font-size: 16px;
+      font-size: 1rem;
+      flex-basis: 33%;
+      -ms-flex-preferred-size: calc(33% - 30px);
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .spec-column {
+      flex-basis: 25%;
+      -ms-flex-preferred-size: calc(25% - 30px);
+    }
+  }
+  .spec-content {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    overflow: hidden;
+    margin: 0 -20px;
+    padding: 30px 0 25px;
+  }
+  @media only screen and (min-width: 768px) {
+    .spec-content {
+      padding: 30px 0;
+    }
+  }
