@@ -1,0 +1,30 @@
+.video-gallery {
+  text-align: center;
+  padding: 30px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 440px;
+}
+
+.video-gallery__main-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--color-primary-100);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-wrapper > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
