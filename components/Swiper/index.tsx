@@ -52,7 +52,7 @@ const SwiperComponent = ({ items = [] }) => {
                     alt={i.AltText || ''}
                     width={700}
                     height={700}
-                    priority
+                    // priority
                   />
                   {/* <img src={i.Url} alt={i.AltText} /> */}
                 </div>
@@ -112,7 +112,7 @@ const SwiperComponent = ({ items = [] }) => {
                   alt={i.AltText || ''}
                   width={100}
                   height={100}
-                  priority
+                  // priority
                 />
               </SwiperSlide>
             );
