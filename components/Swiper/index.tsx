@@ -22,7 +22,13 @@ const SwiperComponent = ({ items = [] }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState();
 
   return (
-    <div className={styles['gallery']}>
+    <div className={styles['gallery']}
+      style={{
+        position: 'relative',
+        maxWidth: '571px',
+        minHeight: '707px',
+      }}
+    >
       <div className={styles['gallery__main']}>
         <Swiper
           loop={true}

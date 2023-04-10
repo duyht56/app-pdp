@@ -14,7 +14,19 @@ const LandingProps = (props) => {
           LandingProps component from PDP mFE
         </h6>
       </div> */}
-      <div className={styles['product-landing__container']}>
+      <div className={styles['product-landing__container']} style={
+                {
+                  display: 'grid',
+                  padding: '0 20px',
+                  maxWidth: '1440px',
+                  margin: '0 auto',
+                  gridGap: '20px',
+                  gridTemplateColumns: '571px minmax(142px,496px)',
+                  position: 'relative',
+        
+        
+                }
+      }>
         <div className={styles['product-landing__left']}>
           <Suspense fallback={<p>Loading...</p>}>
             <ProductGallery {...props}/>
