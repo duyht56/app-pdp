@@ -23,11 +23,6 @@ const SwiperComponent = ({ items = [] }) => {
 
   return (
     <div className={styles['gallery']}
-      style={{
-        position: 'relative',
-        maxWidth: '571px',
-        minHeight: '707px',
-      }}
     >
       <div className={styles['gallery__main']}>
         <Swiper
@@ -58,7 +53,7 @@ const SwiperComponent = ({ items = [] }) => {
                     alt={i.AltText || ''}
                     width={700}
                     height={700}
-                    priority
+                    priority={index === 0}
                   />
                   {/* <img src={i.Url} alt={i.AltText} /> */}
                 </div>
