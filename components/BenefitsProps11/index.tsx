@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import styles from '../../styles/modules/BenefitsProps.module.scss';
+import styles from '../../styles/modules/BenefitsProps11.module.scss';
 
 const benefits = [
   {
