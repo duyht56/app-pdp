@@ -85,9 +85,6 @@ const benefits = [
   },
 ];
 
-const arr
-
-
 const BenefitsProps0 = () => {
   return (
     <>
